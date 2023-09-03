@@ -35,51 +35,6 @@ export default function Navbar() {
           </>
         )}
       </ul>
-      <ul>
-        <li>
-          <a
-            href='/about'
-            className='inline-flex items-center px-5 pt-5 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700'
-          >
-            About
-          </a>
-        </li>
-
-        <li>
-          <a
-            href='/philosophy'
-            className='inline-flex items-center px-5 pt-5 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700'
-          >
-            Our Philosophy
-          </a>
-        </li>
-
-        <li>
-          <a
-            href='/testimonials'
-            className='inline-flex items-center px-5 pt-5 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700'
-          >
-            Patient Testimonials
-          </a>
-        </li>
-
-        <li>
-          <a
-            href='/trends'
-            className='inline-flex items-center px-5 pt-5 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700'
-          >
-            Latest Trends
-          </a>
-        </li>
-        <li>
-          <a
-            href='/resources'
-            className='inline-flex items-center px-5 pt-5 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700'
-          >
-            Resources
-          </a>
-        </li>
-      </ul>
     </nav>
   )
 }
